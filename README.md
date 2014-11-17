@@ -22,3 +22,5 @@ Launching Web Page
 ------------------
 
 Open index.html in browser
+
+![Screenshot of application](screenshot.png "Screenshot of basic shapefile-based tileserver using Leaflet")
