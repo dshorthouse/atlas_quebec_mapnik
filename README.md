@@ -11,9 +11,14 @@ Requirements
 --------------------------
 [http://nodejs.org/](Node.js) & [https://www.npmjs.org/](npm), [http://mapnik.org/](Mapnik)
 
-Launching
----------
+Launching Server
+----------------
 
     $ cd server
     $ npm install
     $ node app.js
+
+Launching Web Page
+------------------
+
+Open index.html in browser
