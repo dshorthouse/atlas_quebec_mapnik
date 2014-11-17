@@ -1,0 +1,11 @@
+{
+  "name": "atlas_quebec_mapnik",
+  "description": "A proof-of-concept for the Atlas of Québec",
+  "author": "David P. Shorthouse <davidpshorthouse@gmail.com>",
+  "dependencies": {
+    "express": ">= 4.10.2",
+    "tilelive": ">= 5.3.3",
+    "tilelive-mapnik" : ">= 0.6.13"
+  },
+  "engine": "node 0.10.29"
+}
