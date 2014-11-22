@@ -1,0 +1,14 @@
+#layers {
+  position:absolute;
+  top:0px;
+  left:720px;
+  width:200px;
+}
+#layers ul {
+  margin:0px;
+  padding:0px;
+}
+
+#layers li {
+  list-style:none;
+}

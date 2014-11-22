@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Atlas of Québec</title>
+    <link rel="stylesheet" href="public/stylesheet/application.css" />
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="public/javascript/L.Graticule.js"></script>
     <script src="public/javascript/application.js"></script>
 </head>
 <body>
     <div id="map" style="width: 700px; height: 500px"></div>
+    <div id="layers">
+        <h2>Layers</h2>
+        <ul>
+            <li><input type="checkbox" id="graticules" name="layers[graticules]"/>
+            <label for="graticules">graticules</label></li>
+        </ul>
+    </div>
 </body>
 </html>
